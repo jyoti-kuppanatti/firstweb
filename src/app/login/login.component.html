@@ -1,0 +1,11 @@
+<H1>Login!</H1>
+<div class="container">
+<small *ngIf="loginfailure">Invalid credentials</small>
+<div>
+Username :<input type="text" id="uname">
+
+Password :<input type="password">
+
+<button (click)="handleLogin()" class="btn btn-success">Login</button>
+</div>
+</div>
